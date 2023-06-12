@@ -101,5 +101,5 @@ Sebelum update website
 Sesudah update website
 ![update-afterwebsite](https://github.com/albidaud/TokoTelu05-Seller/blob/main/asset/pada%20website%20sesudah%20di%20update.png)
 
-Copyright © 2023 Reski Arianto
+Copyright © 2023 TokoTelu05
 Made with 💜 by Group 6
