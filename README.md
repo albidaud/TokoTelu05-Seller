@@ -1,7 +1,10 @@
 # Group Seller - SI4405
-Halo, Selamat datang di halaman Dokumentasi API Kelompok 6 (Seller) 👋
+Halo, Selamat datang di halaman Dokumentasi API Kelompok 6 (Seller) 👋 
 
-**TokoTelu05** adalah website yang berperan sebagai seller dalam Tugas Besar SI-44-05. Selain itu kami juga menyediakan data katalog produk yang dapat diconsume oleh kelompok lain.
+**TokoTelu05** adalah website yang berperan sebagai seller dalam Tugas Besar SI-44-05. Website kami menyediakan data katalog produk yang dapat diconsume oleh kelompok lain.
+
+![preview](https://github.com/albidaud/TokoTelu05-Seller/blob/main/asset/LandingPage.png)
+
 
 
 # About Us
@@ -30,20 +33,42 @@ Website ini dibangun menggunakan:
 - `XAMPP` - XAMPP adalah perangkat lunak berbasis web server yang mendukung di berbagai sistem operasi, baik Windows, Linux, atau Mac OS. XAMPP dapat digunakan sebagai standalone server
 - `Visual Studio Code` - Visual Code Studio adalah sebuah code editor gratis yang bisa dijalankan di perangkat desktop berbasis Windows, Linux, dan MacOS
 - `Bootstrap` - Bootstrap merupakan framework CSS yang di dalamnya berisi template HTML, CSS, dan JavaScript yang untuk membuat sebuah website yang responsif dengan cepat dan mudah.
-- `Microsoft Edge` - Isi deskripsi disini
-- `000Webhost` - Isi deskripsi disini
-
-
-## Requirements
-- XAMPP . . . or later 
-- PHP . . . or later
-- Bootstrap 4 or later
-
+- `Microsoft Edge` - Microsoft Edge merupakan browser yang dikembangkan oleh Microsoft. Kami menggunakan browser ini untuk dapat mengakses website yang telah kami hosting
+- `000Webhost` - 000Webhosting merupakan web yang menyediakan layanan hosting secara gratis dengan PHP, MySQL, Website Builder, dan cPanel
 
 ## Endpoints Usage
 **Base URL** :  `http://tokotelu05.000webhostapp.com/`
 | No | Endpoint | Usage
 | ------ | ------ | ------
-| 1 | view product catalog | `/get-api` 
+| 1 | view product catalog | `/get-api.php` 
 | 2 | add product | `/post-api.php`
-| 3 | update product | `/put-api.php`
+| 3 | update product | `/put-api.php` 
+
+**View Product Catalog**
+- Buka aplikasi Postman desktop atau melalui website [Postman](postman.com)
+- Pada Postman, pilih method ``GET`` lalu masukkan link berikut. Setelah itu klik "Send"
+ ```sh
+http://tokotelu05.000webhostapp.com/get-api.php
+```
+
+**Add Product**
+- Buka aplikasi Postman desktop atau melalui website [Postman](postman.com)
+- Pada Postman, pilih method ``POST`` lalu masukkan link berikut. Setelah itu klik "Send"
+ ```sh
+http://tokotelu05.000webhostapp.com/post-api.php
+```
+
+Jika method ``POST`` berhasil, maka akan muncul tampilan seperti berikut:
+
+**Update Product**
+- Buka aplikasi Postman desktop atau melalui website [Postman](postman.com)
+- Pada Postman, pilih method ``POST`` lalu masukkan link berikut, dengan menambahkan id produk yang akan diupdate. Setelah itu klik "Send"
+ ```sh
+http://tokotelu05.000webhostapp.com/put-api.php
+```
+Berikut contoh link yang sudah ditentukan id produk dari produk yang akan diupdate
+ ```sh
+http://tokotelu05.000webhostapp.com/put-api.php?id_product=17
+```
+
+Jika muncul tampilan seperti berikut, maka produk telah berhasil diupdate
