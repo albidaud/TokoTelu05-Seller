@@ -96,7 +96,10 @@ Pada Postman
 ![update-postman](https://github.com/albidaud/TokoTelu05-Seller/blob/main/asset/post%20update%20produk.png)
 
 Sebelum update website
-![update-beforewebsite]()
+![update-beforewebsite](https://github.com/albidaud/TokoTelu05-Seller/blob/main/asset/sebelum%20update%20website.png)
 
 Sesudah update website
-![update-afterwebsite]()
+![update-afterwebsite](https://github.com/albidaud/TokoTelu05-Seller/blob/main/asset/pada%20website%20sesudah%20di%20update.png)
+
+Copyright © 2023 Reski Arianto
+Made with 💜 by Group 6
