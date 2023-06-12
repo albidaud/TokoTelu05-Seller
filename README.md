@@ -54,6 +54,7 @@ http://tokotelu05.000webhostapp.com/get-api.php
 ```
 
 Jika method `GET` berhasil, maka akan muncul tampilan seperti berikut:
+
 Pada Postman
 ![get-postman](https://github.com/albidaud/TokoTelu05-Seller/blob/main/asset/get%20tokotelu.png)
 
@@ -70,6 +71,7 @@ http://tokotelu05.000webhostapp.com/post-api.php
 ```
 
 Jika method `POST` berhasil, maka akan muncul tampilan seperti berikut:
+
 Pada Postman
 ![post-postman](https://github.com/albidaud/TokoTelu05-Seller/blob/main/asset/post%20nambahin%20produk.png)
 
@@ -92,6 +94,7 @@ http://tokotelu05.000webhostapp.com/put-api.php?id_product=17
 ```
 
 Jika muncul tampilan seperti berikut, maka produk telah berhasil diupdate
+
 Pada Postman
 ![update-postman](https://github.com/albidaud/TokoTelu05-Seller/blob/main/asset/post%20update%20produk.png)
 
@@ -102,4 +105,5 @@ Sesudah update website
 ![update-afterwebsite](https://github.com/albidaud/TokoTelu05-Seller/blob/main/asset/pada%20website%20sesudah%20di%20update.png)
 
 Copyright © 2023 TokoTelu05
+
 Made with 💜 by Group 6
