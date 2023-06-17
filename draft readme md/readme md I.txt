@@ -6,7 +6,7 @@ Halo, Selamat datang di halaman Dokumentasi API Kelompok 6 (Seller) 👋
 
 ![preview](https://github.com/albidaud/TokoTelu05-Seller/blob/main/asset/TUBES%20EAI.png)
 
-## About Us
+# About Us
 
 Members of this Group:
 | No | Nama | NIM | Role
@@ -38,30 +38,22 @@ Website ini dibangun menggunakan:
 ## Endpoints Usage
 
 **Base URL** : `http://tokotelu05.000webhostapp.com/`
-| No | Usage | Endpoint | Method
-| ------ | ------ | ------ | ------ 
-| 1 | view product catalog | `/get-api.php` | `GET`
-| 2 | add product | `/post-api.php` | `POST`
-| 3 | update product | `/put-api.php` | `POST`
+| No | Endpoint | Usage
+| ------ | ------ | ------
+| 1 | view product catalog | `/get-api.php`
+| 2 | add product | `/post-api.php`
+| 3 | update product | `/put-api.php`
 
-**1. View Product Catalog**
-- Method : `GET`
+**View Product Catalog**
 
-- Endpoint : `/get-api.php`
-
-Endpoint ini digunakan untuk menampilkan katalog produk dari TokoTelu05 dengan menggunakan method `GET`. Jika request berhasil dilakukan, Postman akan merespon dengan memanggil atau menampilkan semua data katalog produk.
-
-
-**How to Request**
 - Buka aplikasi Postman desktop atau melalui website [Postman](postman.com)
-- Pilih method `GET` lalu masukkan link *http://tokotelu05.000webhostapp.com/get-api.php*
+- Pada Postman, pilih method `GET` lalu masukkan link berikut. Setelah itu klik "Send"
 
 ```sh
-GET http://tokotelu05.000webhostapp.com/get-api.php
-``` 
-- Klik **Send**
+http://tokotelu05.000webhostapp.com/get-api.php
+```
 
-Jika method `GET` berhasil, maka semua data akan ditampilkan seperti pada gambar berikut:
+Jika method `GET` berhasil, maka akan muncul tampilan seperti berikut:
 
 Pada Postman
 ![get-postman](https://github.com/albidaud/TokoTelu05-Seller/blob/main/asset/get%20tokotelu.png)
@@ -69,24 +61,14 @@ Pada Postman
 Pada Website
 ![get-website](https://github.com/albidaud/TokoTelu05-Seller/blob/main/asset/LandingPage.png)
 
----
+**Add Product**
 
-**2. Add Product**
-- Method : `POST`
-
-- Endpoint : `/post-api.php`
-
-Gunakan endpoint ini untuk menambahkan produk baru ke katalog website TokoTelu05. Jika request berhasil, maka Postman akan merespon dengan menampilkan pesan "Berhasil menambahkan data". Dan produk tersebut akan secara otomatis ditampilkan pada website.
-
-
-**How to Request**
 - Buka aplikasi Postman desktop atau melalui website [Postman](postman.com)
-- Pilih method `POST` lalu masukkan link *http://tokotelu05.000webhostapp.com/post-api.php*.
+- Pada Postman, pilih method `POST` lalu masukkan link berikut. Setelah itu klik "Send"
 
 ```sh
-POST http://tokotelu05.000webhostapp.com/post-api.php
+http://tokotelu05.000webhostapp.com/post-api.php
 ```
-- Klik **Send**
 
 Jika method `POST` berhasil, maka akan muncul tampilan seperti berikut:
 
@@ -96,25 +78,22 @@ Pada Postman
 Pada Website
 ![post-website](https://github.com/albidaud/TokoTelu05-Seller/blob/main/asset/tampilan%20post%20produk%20yang%20berhasil%20ditambahkan.png)
 
----
+**Update Product**
 
-**3. Update Product**
-- Method : `POST`
-
-- Endpoint : `/put-api.php`
-
-Endpoint ini digunakan untuk mengupdate informasi produk pada website TokoTelu05. User perlu menyertakan parameter "ID" agar dapat mengupdate produk berdasarkan ID nya. Jika request berhasil dilakukan, Postman akan merespon dengan menampilkan pesan "Berhasil mengupdate data", dan informasi produk pada website akan terupdate secara otomatis.
-
-**How to Request**
 - Buka aplikasi Postman desktop atau melalui website [Postman](postman.com)
-- Pilih method `POST` lalu masukkan link berikut _http://tokotelu05.000webhostapp.com/put-api.php_ , dengan menambahkan id produk yang akan diupdate.
+- Pada Postman, pilih method `POST` lalu masukkan link berikut, dengan menambahkan id produk yang akan diupdate. Setelah itu klik "Send"
 
 ```sh
-POST http://tokotelu05.000webhostapp.com/put-api.php?id_product=17
+http://tokotelu05.000webhostapp.com/put-api.php
 ```
-- Klik **Send**
 
-Jika pada Postman muncul tampilan seperti berikut, maka produk telah berhasil diupdate
+Berikut contoh link yang sudah ditentukan id produk dari produk yang akan diupdate
+
+```sh
+http://tokotelu05.000webhostapp.com/put-api.php?id_product=17
+```
+
+Jika muncul tampilan seperti berikut, maka produk telah berhasil diupdate
 
 Pada Postman
 ![update-postman](https://github.com/albidaud/TokoTelu05-Seller/blob/main/asset/post%20update%20produk.png)
